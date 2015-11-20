@@ -15,17 +15,20 @@ public class HW_PrimeFactor5630213026 {
 
         System.out.print("Enter Number :  ");
         int num = sc.nextInt();
-        
-        
-        
+
         int i = 2;
         while (num > 1) {
             if (num % i == 0) {
-                System.out.print(i + " ");
+                System.out.print(i + " x ");
+                
+                
+                
                 num = num / i;
             } else {
                 i++;
             }
-}
-}
+        }
+        
+        
+    }
 }
