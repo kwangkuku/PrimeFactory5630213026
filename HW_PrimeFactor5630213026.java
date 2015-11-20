@@ -17,9 +17,15 @@ public class HW_PrimeFactor5630213026 {
         int num = sc.nextInt();
         
         
-        for (int j=0; j <= num ; j++) {
-
-    }
-
+        
+        int i = 2;
+        while (num > 1) {
+            if (num % i == 0) {
+                System.out.print(i + " ");
+                num = num / i;
+            } else {
+                i++;
+            }
+}
 }
 }
