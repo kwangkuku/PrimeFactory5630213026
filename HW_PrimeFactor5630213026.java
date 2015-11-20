@@ -21,7 +21,9 @@ public class HW_PrimeFactor5630213026 {
             if (num % i == 0) {
                 System.out.print(i + " x ");
                 
-                
+           if (num == 1){
+               System.out.println(" ");
+           }     
                 
                 num = num / i;
             } else {
