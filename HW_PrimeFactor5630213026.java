@@ -19,18 +19,17 @@ public class HW_PrimeFactor5630213026 {
         int i = 2;
         while (num > 1) {
             if (num % i == 0) {
-                System.out.print(i + " x ");
-                
-           if (num == 1){
-               System.out.println(" ");
-           }     
-                
+                System.out.print(i + " ");
+
                 num = num / i;
+                if (num != 1) {
+                    System.out.print("x ");
+                }
             } else {
                 i++;
             }
+
         }
-        
-        
+
     }
 }
